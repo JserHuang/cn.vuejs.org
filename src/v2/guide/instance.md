@@ -65,7 +65,7 @@ var vm = new Vue({
 })
 
 vm.$data === data // -> true
-vm.$el === document.getElementById('example') // -> true
+vm.$el === document.getElementById('example') // -> false
 
 // $watch 是一个实例方法
 vm.$watch('a', function (newVal, oldVal) {
